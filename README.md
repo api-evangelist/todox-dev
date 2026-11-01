@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-todox is a working‑memory platform for developers and their AI agents. It records project decisions, task logs, and context notes, enabling seamless hand‑offs between humans and machines. Built on an open‑source stack, todox offers a web UI, API, and MCP server for integration, emphasizing privacy, no third‑party tracking, and easy export of data.
+todox is a working memory platform for developers and their AI coding agents. It lets teams capture projects, tasks, and logs that persist across sessions, enabling seamless collaboration and context retention. Founded by Furkan Beydemir, todox aims to streamline development workflows by providing a searchable, persistent knowledge base that integrates with coding tools and agents.
 
-**Areas:** Developer Tools · AI · Productivity · Open Source · Privacy
+**Areas:** Company · Developer Tools · Productivity · AI · Collaboration
 
 ## todox-dev on APIs.io
 
@@ -74,17 +74,36 @@ Everything profiled for todox-dev is published on APIs.io rather than in this re
 
 ### APIs (1)
 
-- [todox API](https://apis.io/apis/todox-dev/todox-api/) — API for todox platform
+- [todox API](https://apis.io/apis/todox-dev/todox-api/) — API reference (requires sign‑in) for todox platform.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Todox Dev Authentication](https://apis.io/security/todox-dev/todox-dev-authentication/)
 - [Todox Dev Domain Security](https://apis.io/security/todox-dev/todox-dev-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Todox Dev Scopes](https://apis.io/scopes/todox-dev/todox-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Todox Dev Plans Pricing](https://apis.io/plans/todox-dev/todox-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Todox Dev Rate Limits](https://apis.io/rate-limits/todox-dev/todox-dev-rate-limits/)
 
 ## Where to find this API
 
@@ -96,7 +115,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 7.4** — minimal · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 8.8** — minimal · rubric 0.25.0 · scored 2026-10-31
 
 | Facet | Score |
 |---|---|
@@ -107,7 +126,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Developer ergonomics | 2.4 |
 | Access clarity | 10.5 |
 
-**Agent readiness 6.0** — agent-aware
+**Agent readiness 8.5** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -119,7 +138,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | yes |
@@ -133,7 +152,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 
-**Regulatory alignment 9.1** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/todox-dev/](https://apis.io/providers/todox-dev/).
 
